@@ -57,3 +57,32 @@ It highlights how raw e‑commerce data can be transformed into **business insig
 ---
 
 ## 📂 Repository Structure
+Ecommerce-Customer-Behavior-Analysis/
+│
+├── data/                     # Raw and cleaned datasets
+│   ├── ecommerce_customer_behavior_dataset.csv
+│   └── cleaned_dataset.csv
+│
+├── notebooks/                # Jupyter notebooks with step-by-step analysis
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_sales_analysis.ipynb
+│   ├── 03_customer_demographics.ipynb
+│   ├── 04_behavioral_analysis.ipynb
+│   ├── 05_payment_device_trends.ipynb
+│   ├── 06_delivery_ratings.ipynb
+│   └── 07_summary_conclusions.ipynb
+│
+├── visuals/                  # Saved charts and plots
+│   ├── monthly_revenue.png
+│   ├── category_revenue.png
+│   ├── age_distribution.png
+│   └── correlation_heatmap.png
+│
+├── scripts/                  # Python scripts for reusable functions
+│   ├── data_cleaning.py
+│   ├── visualization.py
+│   └── utils.py
+│
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── LICENSE                   # License file (optional)
